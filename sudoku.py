@@ -31,6 +31,7 @@ def get_cells(image_path):  # yields 9 * 9 = 81 cells
 def snap_sudoku(image_path):
     grid = ''.join(cell for cell in get_cells(image_path))
     s = SudokuStr(grid)
+    print(s)
     try:
         print(('\nSolving...\n\n{}'.format(s.solve())))
     except ValueError:

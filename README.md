@@ -13,16 +13,11 @@ SnapSudoku
 Prerequisites:
 -------------
 
-- Python 2.7 but __not__ Python 3
+- Python 3
     - Download from [here](https://www.python.org/downloads/)
 
-- OpenCV
-    - `sudo apt-get install python-opencv` (preferred)
-    - Install OpenCV from [here](http://opencv.org/downloads.html) 
-
-- Numpy (1.11.0)
-    - `pip install numpy` (preferred)
-    - You can build it from source [here](https://github.com/numpy/numpy)
+- Requirements
+    - Install with `pip3 install -r requirements.txt`
 
 How to use: 
 ----------
